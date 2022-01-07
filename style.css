@@ -16,8 +16,10 @@ body{
 }
 .box-img{
   border-radius: 50%;
-  width: 200px;
-  height: 200px;
+   max-width: 20%;
+   max-height: 20%;
+   width: auto;
+   height: auto;
 }
 .box h1{
   font-size: 40px;
