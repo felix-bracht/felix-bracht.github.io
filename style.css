@@ -16,8 +16,8 @@ body{
 }
 .box-img{
   border-radius: 50%;
-   max-width: 20%;
-   max-height: 20%;
+   max-width: 40%;
+   max-height: 40%;
    width: auto;
    height: auto;
 }
