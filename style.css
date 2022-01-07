@@ -4,13 +4,16 @@ body{
   background: url(bg_1.jpg) no-repeat;
   background-size: cover;
 }
+
+/* Main Box */
 .box{
   width: 450px;
   background: rgba(0, 0, 0, 0.8);
   padding: 40px;
   text-align: center;
   margin: auto;
-  margin-top: 5%;
+  margin-top: 3%;
+  margin-bottom: 3%;
   color: white;
   font-family: 'Century Gothic',sans-serif;
 }
@@ -49,4 +52,61 @@ ul{
 }
 .box li a:hover{
   color: #b9b9b9;
+}
+
+/* Second Box */
+
+.box_2{
+  width: 800px;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+}
+.box_2 h1{
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+.box_2 h5{
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+.box_2 p{
+  text-align: justify;
+}
+.box_2 ul {
+  color: white;
+   margin: 10px 0;
+  font-weight: 100;
+}
+
+/* HTML Link style */
+a:link {
+  color: white;
+  background-color: transparent; 
+  text-decoration: underline;
+}
+
+a:visited {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
 }
