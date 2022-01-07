@@ -5,6 +5,10 @@ body{
   background-size: cover;
 }
 
+address {
+  margin-top: 20px
+}
+
 .box_1{
   width: 450px;
   background: rgba(0, 0, 0, 0.8);
