@@ -5,7 +5,6 @@ body{
   background-size: cover;
 }
 
-/* Main Box */
 .box{
   width: 450px;
   background: rgba(0, 0, 0, 0.8);
@@ -54,7 +53,6 @@ ul{
   color: #b9b9b9;
 }
 
-/* Second Box */
 .box_2{
   width: 800px;
   background: rgba(0, 0, 0, 0.8);
@@ -85,25 +83,21 @@ ul{
   font-weight: 100;
 }
 
-/* HTML Link style */
 a:link {
   color: white;
   background-color: transparent; 
   text-decoration: underline;
 }
-
 a:visited {
   color: blue;
   background-color: transparent;
   text-decoration: none;
 }
-
 a:hover {
   color: red;
   background-color: transparent;
   text-decoration: underline;
 }
-
 a:active {
   color: yellow;
   background-color: transparent;
