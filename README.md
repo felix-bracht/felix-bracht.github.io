@@ -5,5 +5,5 @@ GitHub repository for my personal website.
   * [HTML Code](index.html)
   * [External Style Sheet](style.css)
   * [Background Picture](background.jpg)
-  * [Profile Picture](Profile_1.jpg)
+  * [Profile Picture](profile.jpg)
   * [CV](CV_Felix_Bracht.pdf)
