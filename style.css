@@ -31,8 +31,8 @@
 }
 
 .navbar a:hover {
-  background-color: #ddd; /* Grey background color */
-  color: black; /* Black text color */
+  background-color: #ddd;
+  color: black;
 }
 
 /* Content */
@@ -48,8 +48,8 @@
 
 /* Sidebar/left column */
 .side {
-  flex: 25%; /* Set the width of the sidebar */
-  background-color: #f1f1f1; /* Grey background color */
+  flex: 30%;
+  background-color: #f1f1f1;
   padding: 20px;
 }
 
