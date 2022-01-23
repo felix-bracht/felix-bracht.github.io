@@ -98,7 +98,7 @@ a:link {
   text-decoration: underline;
 }
 a:visited {
-  color: blue;
+  color: SteelBlue;
   background-color: transparent;
   text-decoration: none;
 }
