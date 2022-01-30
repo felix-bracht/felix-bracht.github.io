@@ -17,13 +17,23 @@
 }
 
 .navbar a {
-  float: left;
-  display: block;
+  display: flex;
   color: white;
+  line-height: 40px;
   text-align: center;
-  padding: 14px 20px;
-  font-size: 40px;
   text-decoration: none;
+}
+
+.navbar a.left {
+  float: left;
+  padding: 10px 15px;
+  font-size: 20px;
+}
+
+.navbar a.right {
+  float: right;
+  padding: 10px 15px;
+  font-size: 40px;
 }
 
 .navbar a:hover {
@@ -77,4 +87,21 @@
   margin: 10px 0;
   font-weight: 100;
   list-style-type: square;
+}
+
+.container {
+  flex-wrap: nowrap;
+  width: auto;
+  text-align: center;
+  vertical-align: top;
+}
+
+.container img {
+  max-height: 400px;
+  max-width: 100%;
+}
+.container-grey {
+  background-color: #f1f1f1;
+  padding: 0.5rem 1rem;
+  text-align: justify;
 }
