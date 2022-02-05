@@ -1,6 +1,6 @@
 /* Style Header */
 .header {
-  padding: 80px;
+  padding: 60px;
   text-align: center;
   background: #00407a;
   color: white;
@@ -10,7 +10,7 @@
   font-size: 40px;
 }
 
-/* Style the top navigation bar */
+/* Navigation bar */
 .navbar {
   overflow: hidden;
   background-color: #52bdec;
@@ -39,6 +39,17 @@
 .navbar a:hover {
   background-color: #ddd;
   color: black;
+}
+
+/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .navbar a.left {
+    float: none;
+    width: 100%;
+  }
+  .navbar a.right {
+    float: left;
+  }
 }
 
 /* Content */
