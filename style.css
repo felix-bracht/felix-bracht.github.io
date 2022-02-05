@@ -36,9 +36,11 @@
   font-size: 40px;
 }
 
-.navbar a:hover {
-  background-color: #ddd;
-  color: black;
+@media (hover: hover) and (pointer: fine) {
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
 }
 
 /* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
