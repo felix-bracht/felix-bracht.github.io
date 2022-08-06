@@ -29,17 +29,21 @@
     </div>
 
     <!-- NAVIGATION -->
-    <div class="navbar">
-      <a href="https://github.com/felix-bracht" class="right"
-        ><i class="fab fa-github"></i
-      ></a>
-      <a href="http://www.linkedin.com/in/felixbracht" class="right"
-        ><i class="fab fa-linkedin"></i
-      ></a>
-      <a href="CV_Felix_Bracht.pdf" class="right"
+    <div class="topnav">
+      <a href="https://github.com/felix-bracht" class="active"
+        ><i class="fab fa-github"></i></a
+      ><a href="http://www.linkedin.com/in/felixbracht" class="active"
+        ><i class="fab fa-linkedin"></i></a
+      ><a href="CV_Felix_Bracht.pdf" class="active"
         ><i class="fas fa-file-pdf"></i
       ></a>
-      <a href="projects.html" class="left">My Projects</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+      <div id="myLinks">
+        <a href="index.html" class="menu">Home</a>
+        <a href="projects.html" class="menu">My Projects</a>
+      </div>
     </div>
 
     <!-- CONTENT -->
@@ -116,8 +120,7 @@
           Deregulation of capital requirements does not only lead to an increase
           in entrepreneurship, it also entails a substantial substitution effect
           where entrepreneurs are more likely to opt for a legal form with low
-          instead of high paid-in capital. Together with my co-authors Steven Vanhaverbeke 
-          and Jeroen Mahieu, we show that firms
+          instead of high paid-in capital. In this paper, we show that firms
           that choose for a limited liability company with low paid-in capital
           experience a lower access to debt financing compared to their high
           paid-in capital counterparts. These findings are robust to using
@@ -142,31 +145,44 @@
             alt="Schematic representation of a patent collateralization"
             title="Schematic representation of a patent collateralization"
           />
-        </div>       
+        </div>
       </div>
       <div class="container-grey">
         <p>
-          In this project Dirk Czarnitzki and I investigate how intangible capital in form 
-          of intellectual property, such as patents, might mitigate financing constraints. 
-          While scholars have already argued that patents might have a signalling value 
-          reducing information asymmetries between borrowers and lenders, we quantify the 
-          value of using patents as collateral with regard to capital access. Although this mechanism of patents
-          in financing further R&D is not new, we are the first to provide a treatment
-          effects study of patent collateral and access to capital. We make use of
-          mandatory collateral registry data in Sweden and the Netherlands to construct
-          panels combining firm-level financial data and patent measures. Estimating
-          conditional difference-in-difference regressions on firms’ debt allows deducting
-          treatment effects of using patents as collateral. We find that patent pledging
-          enables Swedish (Dutch) firms to borrow about 21% (26%) more than
-          in the counterfactual situation in which no patents would have been used as
-          collateral. We also find that the collateral value of patents is higher than
-          their signalling value, and a back-of-the-envelope scenario calculation shows
-          that Dutch (Swedish) firms could raise more than € 7 (€ 10) billion additional
-          debt capital if the complete patent portfolios would be pledged, all else
-          constant.
+          In this project we investigate how intangible capital in form of
+          intellectual property, such as patents, might mitigate financing
+          constraints. While scholars have already argued that patents might
+          have a signalling value reducing information asymmetries between
+          borrowers and lenders, we quantify the value of using patents as
+          collateral with regard to capital access. Although this mechanism of
+          patents in financing further R&D is not new, we are the first to
+          provide a treatment effects study of patent collateral and access to
+          capital. We make use of mandatory collateral registry data in Sweden
+          and the Netherlands to construct panels combining firm-level financial
+          data and patent measures. Estimating conditional
+          difference-in-difference regressions on firms’ debt allows deducting
+          treatment effects of using patents as collateral. We find that patent
+          pledging enables Swedish (Dutch) firms to borrow about 21% (26%) more
+          than in the counterfactual situation in which no patents would have
+          been used as collateral. We also find that the collateral value of
+          patents is higher than their signalling value, and a
+          back-of-the-envelope scenario calculation shows that Dutch (Swedish)
+          firms could raise more than € 7 (€ 10) billion additional debt capital
+          if the complete patent portfolios would be pledged, all else constant.
         </p>
         <a href="https://ssrn.com/abstract=3775681">Working Paper</a>
       </div>
     </div>
+    <!-- JAVA Script - Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu  icon -->
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
   </body>
 </html>
