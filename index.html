@@ -29,17 +29,21 @@
     </div>
 
     <!-- NAVIGATION -->
-    <div class="navbar">
-      <a href="https://github.com/felix-bracht" class="right"
-        ><i class="fab fa-github"></i
-      ></a>
-      <a href="http://www.linkedin.com/in/felixbracht" class="right"
-        ><i class="fab fa-linkedin"></i
-      ></a>
-      <a href="CV_Felix_Bracht.pdf" class="right"
+    <div class="topnav">
+      <a href="https://github.com/felix-bracht" class="active"
+        ><i class="fab fa-github"></i></a
+      ><a href="http://www.linkedin.com/in/felixbracht" class="active"
+        ><i class="fab fa-linkedin"></i></a
+      ><a href="CV_Felix_Bracht.pdf" class="active"
         ><i class="fas fa-file-pdf"></i
       ></a>
-      <a href="projects.html" class="left">My Projects</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+      <div id="myLinks">
+        <a href="index.html" class="menu">Home</a>
+        <a href="projects.html" class="menu">My Projects</a>
+      </div>
     </div>
 
     <!-- CONTENT -->
@@ -51,10 +55,11 @@
           class="box-img"
         />
         <p>
-          I am Post-doctoral Researcher in Business Economics at KU Leuven. My primary
-          research interests are in the field of <b>Environmental Economics</b>,
-          <b>Economics of Innovation</b> and <b>Entrepreneurship</b>. I have
-          strong expertise in data analysis with Python, SQL, and Stata.
+          I am Post-doctoral Researcher in Business Economics at KU Leuven. My
+          primary research interests are in the field of
+          <b>Environmental Economics</b>, <b>Economics of Innovation</b> and
+          <b>Entrepreneurship</b>. I have strong expertise in data analysis with
+          Python, SQL, and Stata.
         </p>
         <p></p>
         <h3>Contact me</h3>
@@ -84,9 +89,13 @@
             >, joint work with Jeroen Mahieu and Steven Vanhaverbeke [Revise and
             Resubmit, Journal of Business Venturing (JBV)]
           </li>
-          <li><a href="https://documents.epo.org/projects/babylon/eponet.nsf/0/C1DA39F16C29E8F3C125887E004CF8A7/$File/ARP2019_Czarnitzki_en.pdf"
-              >"Patents as a source of finance to mitigate financing constraints"</a
-            >, joint work with Dirk Czarnitzki</li>
+          <li>
+            <a
+              href="https://documents.epo.org/projects/babylon/eponet.nsf/0/C1DA39F16C29E8F3C125887E004CF8A7/$File/ARP2019_Czarnitzki_en.pdf"
+              >"Patents as a source of finance to mitigate financing
+              constraints"</a
+            >, joint work with Dirk Czarnitzki
+          </li>
         </ol>
         <br />
         <h2>DATA EXPERTISE</h2>
@@ -129,5 +138,16 @@
         </ol>
       </div>
     </div>
+    <!-- JAVA Script - Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu  icon -->
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
   </body>
 </html>
