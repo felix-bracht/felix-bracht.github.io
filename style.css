@@ -69,6 +69,10 @@
   padding: 20px;
 }
 
+.side a {
+  text-decoration:none;
+}
+
 .side p {
   text-align: justify;
   line-height: 1.5;
