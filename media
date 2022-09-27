@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Personal website of Felix Bracht, Post-doctoral Researcher in Business Economics at KU Leuven."
+    />
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Felix Bracht</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <div class="header">
+      <h1>
+        <a href="/index.html" style="color: white; text-decoration: none"
+          >Felix Bracht</a
+        >
+      </h1>
+      <p>Post-doctoral Researcher in Business Economics - KU Leuven</p>
+    </div>
+
+    <!-- NAVIGATION -->
+    <div class="topnav">
+      <a href="https://github.com/felix-bracht" class="active"
+        ><i class="fab fa-github"></i></a
+      ><a href="http://www.linkedin.com/in/felixbracht" class="active"
+        ><i class="fab fa-linkedin"></i></a
+      ><a href="CV_Felix_Bracht.pdf" class="active"
+        ><i class="fas fa-file-pdf"></i
+      ></a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+      <div id="myLinks">
+        <a href="index.html" class="menu">Home</a>
+        <a href="projects.html" class="menu">My Projects</a>
+        <a href="media.html" class="menu">Media</a>
+      </div>
+    </div>
+
+    <!-- CONTENT -->
+    <div class="main">
+      <!-- PODCAST -->
+      <h2>EPO "TALK INNOVATION" PODCAST</h2>
+      Funding constraints are often a barrier to innovation, but patents can
+      help raise funding when used as collateral. In this podcast Dirk
+      Czarnitzki and I discuss patent characteristics relevant in loan
+      negotiations and estimate the level of debt firms can rise by pledging
+      patents. The discussion in based on findings published in our
+      <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4217986"
+        >Working Paper</a
+      >. <br /><br />
+      <iframe
+        style="border-radius: 12px"
+        src="https://open.spotify.com/embed/episode/3kJXWyNnzqtatFLE7KSK0I?utm_source=generator"
+        width="100%"
+        height="352"
+        frameborder="0"
+        allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        loading="lazy"
+      ></iframe>
+    </div>
+    <!-- JAVA Script - Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu  icon -->
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
+  </body>
+</html>
